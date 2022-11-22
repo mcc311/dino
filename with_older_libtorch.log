@@ -1,0 +1,889 @@
+[33mRunning ./open_spiel/scripts/build_and_run_tests.sh from /home/mcc311/open_spiel[0m
+[33mReusing virtualenv from ./venv.[0m
+[33mSkipping installation of requirements.txt.[0m
+Building and testing in /home/mcc311/open_spiel/build using 'python' (version 3.11.0).
+[1;33mCurrent build type is: Testing[m
+[1;33mOPEN_SPIEL_BUILD_WITH_ACPC: OFF [m
+[1;33mOPEN_SPIEL_BUILD_WITH_EIGEN: OFF [m
+[1;33mOPEN_SPIEL_BUILD_WITH_GO: OFF [m
+[1;33mOPEN_SPIEL_BUILD_WITH_HANABI: OFF [m
+[1;33mOPEN_SPIEL_BUILD_WITH_HIGC: OFF [m
+[1;33mOPEN_SPIEL_BUILD_WITH_JULIA: OFF [m
+[1;33mOPEN_SPIEL_BUILD_WITH_LIBNOP: ON [m
+[1;33mOPEN_SPIEL_BUILD_WITH_LIBTORCH: ON [m
+[1;33mOPEN_SPIEL_BUILD_WITH_TENSORFLOW_CC: OFF [m
+[1;33mOPEN_SPIEL_BUILD_WITH_PYTHON: ON [m
+[1;33mOPEN_SPIEL_BUILD_WITH_XINXIN: OFF [m
+[1;33mOPEN_SPIEL_BUILD_WITH_ROSHAMBO: OFF [m
+[1;33mOPEN_SPIEL_BUILD_WITH_GAMUT: OFF [m
+[1;33mOPEN_SPIEL_BUILD_WITH_ORTOOLS: OFF [m
+[1;33mOPEN_SPIEL_BUILD_WITH_RUST: OFF [m
+[1;33mOPEN_SPIEL_ENABLE_JAX: AUTO [m
+[1;33mOPEN_SPIEL_ENABLE_PYTORCH: AUTO [m
+[1;33mOPEN_SPIEL_ENABLE_TENSORFLOW: AUTO [m
+[1;33mOPEN_SPIEL_ENABLE_PYTHON_MISC: OFF [m
+[1;31mOPEN_SPIEL_BUILDING_WHEEL not set. Defaults to OFF[m
+[1;33mOPEN_SPIEL_BUILDING_WHEEL: OFF [m
+Not building wheel. Finding Python normally...
+Python executable: /home/mcc311/miniconda3/bin/python3
+Python include dirs: /home/mcc311/miniconda3/include/python3.11
+Python library dirs: /home/mcc311/miniconda3/lib
+OPEN_SPIEL_ENABLE_JAX set to AUTO. Detecting Jax...
+Not found. Enable printing errors in python/CMakeLists.txt to see output.
+OPEN_SPIEL_ENABLE_PYTORCH set to AUTO. Detecting PyTorch...
+Not found. Enable printing errors in python/CMakeLists.txt to see output.
+OPEN_SPIEL_ENABLE_TENSORFLOW set to AUTO. Detecting Tensorflow...
+Not found. Enable printing errors in python/CMakeLists.txt to see output.
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/mcc311/open_spiel/build
+Building project
+Consolidate compiler generated dependencies of target absl_spinlock_wait
+Consolidate compiler generated dependencies of target absl_strerror
+Consolidate compiler generated dependencies of target absl_leak_check_disable
+Consolidate compiler generated dependencies of target absl_flags_commandlineflag_internal
+Consolidate compiler generated dependencies of target absl_leak_check
+Consolidate compiler generated dependencies of target absl_random_internal_platform
+Consolidate compiler generated dependencies of target absl_exponential_biased
+Consolidate compiler generated dependencies of target absl_log_severity
+Consolidate compiler generated dependencies of target absl_civil_time
+Consolidate compiler generated dependencies of target absl_random_seed_gen_exception
+Consolidate compiler generated dependencies of target absl_int128
+[  0%] Built target absl_leak_check_disable
+[  0%] Built target absl_spinlock_wait
+[  1%] Built target absl_flags_commandlineflag_internal
+[  1%] Built target absl_random_internal_platform
+[  1%] Built target absl_strerror
+[  1%] Built target absl_leak_check
+[  1%] Built target absl_exponential_biased
+Consolidate compiler generated dependencies of target absl_time_zone
+[  2%] Built target absl_log_severity
+[  2%] Built target absl_civil_time
+[  3%] Built target absl_random_seed_gen_exception
+[  3%] Built target absl_int128
+Consolidate compiler generated dependencies of target absl_periodic_sampler
+Consolidate compiler generated dependencies of target absl_random_internal_randen_hwaes_impl
+Consolidate compiler generated dependencies of target absl_random_internal_randen_slow
+[  4%] Built target absl_time_zone
+Consolidate compiler generated dependencies of target absl_raw_logging_internal
+Consolidate compiler generated dependencies of target open_spiel_core
+[  5%] Built target absl_periodic_sampler
+[  5%] Built target absl_random_internal_randen_slow
+[  5%] Built target absl_random_internal_randen_hwaes_impl
+[  6%] Built target absl_raw_logging_internal
+[  8%] Built target open_spiel_core
+Consolidate compiler generated dependencies of target absl_random_internal_randen_hwaes
+Consolidate compiler generated dependencies of target absl_bad_any_cast_impl
+Consolidate compiler generated dependencies of target absl_bad_variant_access
+Consolidate compiler generated dependencies of target absl_bad_optional_access
+Consolidate compiler generated dependencies of target absl_scoped_set_env
+Consolidate compiler generated dependencies of target absl_cordz_functions
+Consolidate compiler generated dependencies of target absl_throw_delegate
+[  9%] Built target absl_random_internal_randen_hwaes
+Consolidate compiler generated dependencies of target absl_debugging_internal
+Consolidate compiler generated dependencies of target absl_base
+[  9%] Built target absl_bad_any_cast_impl
+[ 10%] Built target absl_bad_variant_access
+[ 10%] Built target absl_bad_optional_access
+[ 10%] Built target absl_scoped_set_env
+[ 11%] Built target absl_cordz_functions
+Consolidate compiler generated dependencies of target absl_random_internal_randen
+[ 12%] Built target absl_throw_delegate
+[ 13%] Built target absl_debugging_internal
+[ 13%] Built target absl_base
+[ 13%] Built target absl_random_internal_randen
+Consolidate compiler generated dependencies of target absl_demangle_internal
+Consolidate compiler generated dependencies of target absl_stacktrace
+Consolidate compiler generated dependencies of target absl_low_level_hash
+Consolidate compiler generated dependencies of target absl_malloc_internal
+Consolidate compiler generated dependencies of target absl_city
+Consolidate compiler generated dependencies of target absl_strings_internal
+[ 13%] Built target absl_demangle_internal
+[ 13%] Built target absl_stacktrace
+[ 13%] Built target absl_low_level_hash
+[ 14%] Built target absl_malloc_internal
+[ 14%] Built target absl_city
+[ 15%] Built target absl_strings_internal
+Consolidate compiler generated dependencies of target absl_graphcycles_internal
+[ 15%] Built target absl_graphcycles_internal
+Consolidate compiler generated dependencies of target absl_strings
+[ 17%] Built target absl_strings
+Consolidate compiler generated dependencies of target absl_flags_commandlineflag
+Consolidate compiler generated dependencies of target absl_symbolize
+Consolidate compiler generated dependencies of target absl_hash
+Consolidate compiler generated dependencies of target absl_random_distributions
+Consolidate compiler generated dependencies of target absl_random_internal_seed_material
+Consolidate compiler generated dependencies of target absl_time
+Consolidate compiler generated dependencies of target absl_str_format_internal
+Consolidate compiler generated dependencies of target absl_cord_internal
+[ 18%] Built target absl_flags_commandlineflag
+[ 18%] Built target absl_symbolize
+[ 18%] Built target absl_hash
+[ 18%] Built target absl_random_distributions
+[ 18%] Built target absl_random_internal_seed_material
+[ 19%] Built target absl_time
+[ 20%] Built target absl_str_format_internal
+[ 21%] Built target absl_cord_internal
+Consolidate compiler generated dependencies of target absl_flags_private_handle_accessor
+Consolidate compiler generated dependencies of target absl_examine_stack
+Consolidate compiler generated dependencies of target absl_random_internal_pool_urbg
+Consolidate compiler generated dependencies of target absl_flags_marshalling
+[ 21%] Built target absl_flags_private_handle_accessor
+Consolidate compiler generated dependencies of target absl_random_internal_distribution_test_util
+[ 22%] Built target absl_examine_stack
+[ 22%] Built target absl_random_internal_pool_urbg
+[ 22%] Built target absl_flags_marshalling
+[ 22%] Built target absl_random_internal_distribution_test_util
+Consolidate compiler generated dependencies of target absl_synchronization
+Consolidate compiler generated dependencies of target absl_failure_signal_handler
+Consolidate compiler generated dependencies of target absl_random_seed_sequences
+[ 22%] Built target absl_failure_signal_handler
+[ 23%] Built target absl_synchronization
+[ 23%] Built target absl_random_seed_sequences
+Consolidate compiler generated dependencies of target absl_flags_program_name
+Consolidate compiler generated dependencies of target absl_cordz_handle
+Consolidate compiler generated dependencies of target absl_hashtablez_sampler
+[ 24%] Built target absl_flags_program_name
+[ 24%] Built target absl_cordz_handle
+[ 25%] Built target absl_hashtablez_sampler
+Consolidate compiler generated dependencies of target absl_flags_config
+Consolidate compiler generated dependencies of target absl_cordz_info
+Consolidate compiler generated dependencies of target absl_raw_hash_set
+[ 25%] Built target absl_flags_config
+[ 25%] Built target absl_cordz_info
+[ 25%] Built target absl_raw_hash_set
+Consolidate compiler generated dependencies of target absl_flags_internal
+Consolidate compiler generated dependencies of target absl_cord
+Consolidate compiler generated dependencies of target absl_cordz_sample_token
+[ 26%] Built target absl_flags_internal
+[ 26%] Built target absl_cordz_sample_token
+[ 26%] Built target absl_cord
+Consolidate compiler generated dependencies of target absl_flags_reflection
+Consolidate compiler generated dependencies of target absl_status
+[ 26%] Built target absl_flags_reflection
+[ 27%] Built target absl_status
+Consolidate compiler generated dependencies of target absl_flags
+Consolidate compiler generated dependencies of target absl_statusor
+[ 27%] Built target absl_flags
+[ 27%] Built target absl_statusor
+Consolidate compiler generated dependencies of target absl_flags_usage_internal
+[ 28%] Built target absl_flags_usage_internal
+Consolidate compiler generated dependencies of target absl_flags_usage
+[ 28%] Built target absl_flags_usage
+Consolidate compiler generated dependencies of target absl_flags_parse
+[ 28%] Built target absl_flags_parse
+Consolidate compiler generated dependencies of target tests
+Consolidate compiler generated dependencies of target bots
+[ 28%] Built target tests
+Consolidate compiler generated dependencies of target utils
+Consolidate compiler generated dependencies of target dqn_torch
+[ 28%] Built target bots
+Consolidate compiler generated dependencies of target game_transforms
+Consolidate compiler generated dependencies of target alpha_zero_torch
+[ 29%] Built target utils
+[ 29%] Built target dqn_torch
+Consolidate compiler generated dependencies of target bridge_double_dummy_solver
+[ 30%] Built target game_transforms
+[ 30%] Built target alpha_zero_torch
+[ 34%] Built target bridge_double_dummy_solver
+Consolidate compiler generated dependencies of target algorithms
+[ 40%] Built target algorithms
+Consolidate compiler generated dependencies of target games
+[ 53%] Built target games
+Consolidate compiler generated dependencies of target libnop_integration_test
+Consolidate compiler generated dependencies of target best_response_test
+Consolidate compiler generated dependencies of target cfr_br_test
+Consolidate compiler generated dependencies of target evaluate_bots_test
+Consolidate compiler generated dependencies of target deterministic_policy_test
+Consolidate compiler generated dependencies of target get_all_histories_test
+Consolidate compiler generated dependencies of target get_all_states_test
+Consolidate compiler generated dependencies of target corr_dist_test
+Consolidate compiler generated dependencies of target external_sampling_mccfr_test
+Consolidate compiler generated dependencies of target get_legal_actions_map_test
+Consolidate compiler generated dependencies of target history_tree_test
+Consolidate compiler generated dependencies of target is_mcts_test
+Consolidate compiler generated dependencies of target minimax_test
+Consolidate compiler generated dependencies of target observation_history_test
+Consolidate compiler generated dependencies of target matrix_game_utils_test
+Consolidate compiler generated dependencies of target oos_test
+Consolidate compiler generated dependencies of target cfr_test
+Consolidate compiler generated dependencies of target state_distribution_test
+Consolidate compiler generated dependencies of target infostate_tree_test
+Consolidate compiler generated dependencies of target outcome_sampling_mccfr_test
+Consolidate compiler generated dependencies of target trajectories_test
+Consolidate compiler generated dependencies of target tabular_exploitability_test
+Consolidate compiler generated dependencies of target tensor_game_utils_test
+Consolidate compiler generated dependencies of target tabular_best_response_mdp_test
+Consolidate compiler generated dependencies of target corr_dev_builder_test
+Consolidate compiler generated dependencies of target human_bot_test
+Consolidate compiler generated dependencies of target simple_gin_rummy_bot_example
+Consolidate compiler generated dependencies of target simple_gin_rummy_bot_test
+Consolidate compiler generated dependencies of target torch_integration_test
+Consolidate compiler generated dependencies of target torch_model_test
+Consolidate compiler generated dependencies of target torch_vpnet_test
+Consolidate compiler generated dependencies of target dqn_torch_test
+[ 53%] Built target get_all_histories_test
+[ 53%] Built target get_legal_actions_map_test
+[ 53%] Built target corr_dist_test
+[ 53%] Built target cfr_br_test
+[ 53%] Built target evaluate_bots_test
+[ 53%] Built target external_sampling_mccfr_test
+[ 53%] Built target best_response_test
+[ 55%] Built target is_mcts_test
+[ 55%] Built target history_tree_test
+[ 56%] Built target get_all_states_test
+[ 57%] Built target matrix_game_utils_test
+[ 57%] Built target deterministic_policy_test
+[ 57%] Built target corr_dev_builder_test
+[ 55%] Built target libnop_integration_test
+[ 57%] Built target cfr_test
+[ 58%] Built target infostate_tree_test
+[ 59%] Built target observation_history_test
+[ 59%] Built target oos_test
+[ 60%] Built target tabular_best_response_mdp_test
+[ 58%] Built target minimax_test
+[ 61%] Built target state_distribution_test
+[ 61%] Built target trajectories_test
+[ 61%] Built target tabular_exploitability_test
+[ 61%] Built target tensor_game_utils_test
+[ 61%] Built target outcome_sampling_mccfr_test
+[ 61%] Built target simple_gin_rummy_bot_example
+[ 61%] Built target simple_gin_rummy_bot_test
+[ 61%] Built target torch_model_test
+[ 61%] Built target torch_vpnet_test
+[ 62%] Built target dqn_torch_test
+[ 62%] Built target torch_integration_test
+[ 62%] Built target human_bot_test
+Consolidate compiler generated dependencies of target benchmark_game
+Consolidate compiler generated dependencies of target example
+Consolidate compiler generated dependencies of target imperfect_recall_mccfr
+Consolidate compiler generated dependencies of target cfr_multi_equilibria_example
+Consolidate compiler generated dependencies of target uci_bot_test
+Consolidate compiler generated dependencies of target cfr_example
+Consolidate compiler generated dependencies of target fsicfr_liars_dice
+Consolidate compiler generated dependencies of target random_uci_bot
+Consolidate compiler generated dependencies of target matrix_example
+Consolidate compiler generated dependencies of target policy_iteration_example
+Consolidate compiler generated dependencies of target mcts_example
+Consolidate compiler generated dependencies of target count_all_states
+Consolidate compiler generated dependencies of target tabular_q_learning_example
+Consolidate compiler generated dependencies of target tabular_sarsa_example
+Consolidate compiler generated dependencies of target gtp
+Consolidate compiler generated dependencies of target 2048_test
+Consolidate compiler generated dependencies of target minimax_example
+Consolidate compiler generated dependencies of target amazons_test
+Consolidate compiler generated dependencies of target value_iteration_example
+Consolidate compiler generated dependencies of target backgammon_test
+Consolidate compiler generated dependencies of target breakthrough_test
+Consolidate compiler generated dependencies of target bargaining_test
+Consolidate compiler generated dependencies of target blotto_test
+Consolidate compiler generated dependencies of target catch_test
+Consolidate compiler generated dependencies of target battleship_test
+Consolidate compiler generated dependencies of target alpha_zero_torch_example
+Consolidate compiler generated dependencies of target blackjack_test
+Consolidate compiler generated dependencies of target alpha_zero_torch_game_example
+Consolidate compiler generated dependencies of target bridge_test
+Consolidate compiler generated dependencies of target bargaining_instance_generator
+[ 63%] Built target uci_bot_test
+[ 63%] Built target fsicfr_liars_dice
+[ 65%] Built target cfr_multi_equilibria_example
+[ 65%] Built target benchmark_game
+[ 65%] Built target cfr_example
+[ 65%] Built target random_uci_bot
+[ 65%] Built target count_all_states
+[ 66%] Built target matrix_example
+[ 66%] Built target example
+[ 66%] Built target mcts_example
+[ 66%] Built target policy_iteration_example
+[ 67%] Built target imperfect_recall_mccfr
+[ 67%] Built target tabular_q_learning_example
+[ 67%] Built target minimax_example
+[ 67%] Built target value_iteration_example
+[ 67%] Built target 2048_test
+[ 67%] Built target tabular_sarsa_example
+[ 67%] Built target gtp
+Consolidate compiler generated dependencies of target checkers_test
+[ 67%] Built target amazons_test
+Consolidate compiler generated dependencies of target dqn_torch_example
+[ 67%] Built target battleship_test
+[ 68%] Built target blackjack_test
+[ 68%] Built target breakthrough_test
+[ 69%] Built target blotto_test
+[ 69%] Built target bargaining_test
+[ 69%] Built target backgammon_test
+[ 70%] Built target bridge_test
+[ 71%] Built target catch_test
+[ 71%] Built target alpha_zero_torch_example
+[ 71%] Built target alpha_zero_torch_game_example
+[ 71%] Built target bargaining_instance_generator
+Consolidate compiler generated dependencies of target chess_test
+Consolidate compiler generated dependencies of target coin_game_test
+Consolidate compiler generated dependencies of target cliff_walking_test
+Consolidate compiler generated dependencies of target clobber_test
+[ 71%] Built target checkers_test
+Consolidate compiler generated dependencies of target coop_box_pushing_test
+Consolidate compiler generated dependencies of target colored_trails_test
+Consolidate compiler generated dependencies of target connect_four_test
+Consolidate compiler generated dependencies of target colored_trails_board_generator
+Consolidate compiler generated dependencies of target coordinated_mp_test
+Consolidate compiler generated dependencies of target deep_sea_test
+Consolidate compiler generated dependencies of target dark_chess_test
+Consolidate compiler generated dependencies of target crowd_modelling_2d_test
+Consolidate compiler generated dependencies of target crowd_modelling_test
+Consolidate compiler generated dependencies of target dark_hex_test
+Consolidate compiler generated dependencies of target cursor_go_test
+Consolidate compiler generated dependencies of target dynamic_routing_data_test
+Consolidate compiler generated dependencies of target dynamic_routing_test
+Consolidate compiler generated dependencies of target efg_game_test
+Consolidate compiler generated dependencies of target gin_rummy_test
+Consolidate compiler generated dependencies of target euchre_test
+Consolidate compiler generated dependencies of target go_test
+Consolidate compiler generated dependencies of target dynamic_routing_utils_test
+Consolidate compiler generated dependencies of target phantom_go_test
+Consolidate compiler generated dependencies of target havannah_test
+Consolidate compiler generated dependencies of target kriegspiel_test
+Consolidate compiler generated dependencies of target hearts_test
+Consolidate compiler generated dependencies of target first_sealed_auction_test
+[ 71%] Built target dqn_torch_example
+Consolidate compiler generated dependencies of target goofspiel_test
+[ 71%] Built target clobber_test
+[ 71%] Built target cliff_walking_test
+[ 71%] Built target chess_test
+[ 72%] Built target coin_game_test
+Consolidate compiler generated dependencies of target hex_test
+[ 72%] Built target colored_trails_board_generator
+Consolidate compiler generated dependencies of target garnet_test
+[ 73%] Built target colored_trails_test
+[ 73%] Built target connect_four_test
+[ 74%] Built target coordinated_mp_test
+[ 74%] Built target coop_box_pushing_test
+[ 74%] Built target crowd_modelling_test
+[ 74%] Built target deep_sea_test
+[ 75%] Built target dark_hex_test
+[ 75%] Built target dark_chess_test
+[ 75%] Built target cursor_go_test
+[ 76%] Built target crowd_modelling_2d_test
+[ 76%] Built target dynamic_routing_test
+[ 76%] Built target dynamic_routing_data_test
+[ 77%] Built target dynamic_routing_utils_test
+[ 77%] Built target efg_game_test
+[ 77%] Built target gin_rummy_test
+[ 77%] Built target phantom_go_test
+[ 77%] Built target euchre_test
+[ 77%] Built target go_test
+[ 77%] Built target havannah_test
+[ 77%] Built target kriegspiel_test
+[ 78%] Built target hearts_test
+[ 79%] Built target goofspiel_test
+[ 80%] Built target first_sealed_auction_test
+[ 80%] Built target garnet_test
+[ 80%] Built target hex_test
+Consolidate compiler generated dependencies of target kuhn_poker_test
+Consolidate compiler generated dependencies of target leduc_poker_test
+Consolidate compiler generated dependencies of target liars_dice_test
+Consolidate compiler generated dependencies of target lewis_signaling_test
+Consolidate compiler generated dependencies of target matching_pennies_3p_test
+Consolidate compiler generated dependencies of target mancala_test
+Consolidate compiler generated dependencies of target matrix_games_test
+Consolidate compiler generated dependencies of target morpion_solitaire_test
+Consolidate compiler generated dependencies of target negotiation_test
+Consolidate compiler generated dependencies of target markov_soccer_test
+Consolidate compiler generated dependencies of target nim_test
+Consolidate compiler generated dependencies of target othello_test
+Consolidate compiler generated dependencies of target nfg_game_test
+Consolidate compiler generated dependencies of target oh_hell_test
+Consolidate compiler generated dependencies of target oshi_zumo_test
+Consolidate compiler generated dependencies of target oware_test
+Consolidate compiler generated dependencies of target pathfinding_test
+Consolidate compiler generated dependencies of target rbc_test
+Consolidate compiler generated dependencies of target pentago_test
+Consolidate compiler generated dependencies of target phantom_ttt_test
+Consolidate compiler generated dependencies of target quoridor_test
+Consolidate compiler generated dependencies of target skat_test
+Consolidate compiler generated dependencies of target tarok_test
+Consolidate compiler generated dependencies of target sheriff_test
+Consolidate compiler generated dependencies of target tic_tac_toe_test
+Consolidate compiler generated dependencies of target laser_tag_test
+Consolidate compiler generated dependencies of target stones_and_gems_test
+Consolidate compiler generated dependencies of target solitaire_test
+Consolidate compiler generated dependencies of target tiny_bridge_test
+Consolidate compiler generated dependencies of target tiny_hanabi_test
+Consolidate compiler generated dependencies of target pig_test
+[ 81%] Built target lewis_signaling_test
+[ 81%] Built target leduc_poker_test
+[ 81%] Built target kuhn_poker_test
+[ 81%] Built target liars_dice_test
+[ 81%] Built target matching_pennies_3p_test
+[ 81%] Built target mancala_test
+[ 82%] Built target markov_soccer_test
+[ 82%] Built target matrix_games_test
+[ 82%] Built target morpion_solitaire_test
+[ 82%] Built target nfg_game_test
+[ 83%] Built target negotiation_test
+[ 83%] Built target nim_test
+[ 83%] Built target oh_hell_test
+[ 84%] Built target othello_test
+[ 84%] Built target oshi_zumo_test
+[ 84%] Built target oware_test
+[ 84%] Built target phantom_ttt_test
+[ 84%] Built target rbc_test
+[ 85%] Built target sheriff_test
+[ 86%] Built target quoridor_test
+[ 87%] Built target pentago_test
+[ 87%] Built target skat_test
+[ 87%] Built target pathfinding_test
+[ 88%] Built target tarok_test
+[ 88%] Built target laser_tag_test
+[ 88%] Built target tic_tac_toe_test
+[ 88%] Built target solitaire_test
+[ 88%] Built target tiny_bridge_test
+[ 88%] Built target stones_and_gems_test
+[ 89%] Built target tiny_hanabi_test
+[ 90%] Built target pig_test
+Consolidate compiler generated dependencies of target efg_writer_test
+Consolidate compiler generated dependencies of target y_test
+Consolidate compiler generated dependencies of target repeated_game_test
+Consolidate compiler generated dependencies of target trade_comm_test
+Consolidate compiler generated dependencies of target ultimate_tic_tac_toe_test
+Consolidate compiler generated dependencies of target coop_to_1p_test
+Consolidate compiler generated dependencies of target normal_form_extensive_game_test
+Consolidate compiler generated dependencies of target data_logger_test
+Consolidate compiler generated dependencies of target misere_test
+Consolidate compiler generated dependencies of target restricted_nash_response_test
+Consolidate compiler generated dependencies of target combinatorics_test
+Consolidate compiler generated dependencies of target circular_buffer_test
+Consolidate compiler generated dependencies of target turn_based_simultaneous_game_test
+Consolidate compiler generated dependencies of target start_at_test
+Consolidate compiler generated dependencies of target functional_test
+Consolidate compiler generated dependencies of target file_test
+Consolidate compiler generated dependencies of target run_python_test
+Consolidate compiler generated dependencies of target logger_test
+Consolidate compiler generated dependencies of target lru_cache_test
+Consolidate compiler generated dependencies of target tensor_view_test
+Consolidate compiler generated dependencies of target random_test
+Consolidate compiler generated dependencies of target action_view_test
+Consolidate compiler generated dependencies of target spiel_test
+Consolidate compiler generated dependencies of target json_test
+Consolidate compiler generated dependencies of target stats_test
+[ 90%] Built target efg_writer_test
+[ 91%] Built target y_test
+Consolidate compiler generated dependencies of target threaded_queue_test
+Consolidate compiler generated dependencies of target serializable_circular_buffer_test
+[ 92%] Built target ultimate_tic_tac_toe_test
+[ 92%] Built target misere_test
+[ 93%] Built target repeated_game_test
+[ 93%] Built target turn_based_simultaneous_game_test
+[ 93%] Built target restricted_nash_response_test
+[ 93%] Built target coop_to_1p_test
+[ 93%] Built target trade_comm_test
+[ 94%] Built target circular_buffer_test
+[ 94%] Built target normal_form_extensive_game_test
+[ 94%] Built target start_at_test
+[ 94%] Built target data_logger_test
+[ 94%] Built target file_test
+[ 94%] Built target functional_test
+[ 94%] Built target combinatorics_test
+[ 94%] Built target logger_test
+[ 94%] Built target lru_cache_test
+[ 94%] Built target run_python_test
+[ 94%] Built target tensor_view_test
+[ 95%] Built target random_test
+[ 95%] Built target action_view_test
+[ 95%] Built target spiel_test
+[ 96%] Built target stats_test
+[ 96%] Built target json_test
+[ 97%] Built target threaded_queue_test
+[ 97%] Built target serializable_circular_buffer_test
+Consolidate compiler generated dependencies of target pyspiel
+[ 97%] Building CXX object python/CMakeFiles/pyspiel.dir/pybind11/games_gin_rummy.cc.o
+[ 97%] Building CXX object python/CMakeFiles/pyspiel.dir/pybind11/games_euchre.cc.o
+In file included from /home/mcc311/open_spiel/open_spiel/python/pybind11/games_gin_rummy.cc:28:
+In file included from /home/mcc311/open_spiel/open_spiel/python/../pybind11_abseil/pybind11_abseil/absl_casters.h:33:
+In file included from /home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/cast.h:13:
+In file included from /home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/pytypes.h:12:
+/home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/detail/common.h:339:12: error: redefinition of 'return_value_policy'
+enum class return_value_policy : uint8_t {
+           ^
+/home/mcc311/open_spiel/open_spiel/../pybind11/include/pybind11/detail/common.h:418:12: note: previous definition is here
+enum class return_value_policy : uint8_t {
+           ^
+In file included from /home/mcc311/open_spiel/open_spiel/python/pybind11/games_gin_rummy.cc:28:
+In file included from /home/mcc311/open_spiel/open_spiel/python/../pybind11_abseil/pybind11_abseil/absl_casters.h:33:
+In file included from /home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/cast.h:13:
+In file included from /home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/pytypes.h:12:
+/home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/detail/common.h:392:48: error: redefinition of default argument
+inline static constexpr int log2(size_t n, int k = 0) { return (n <= 1) ? k : log2(n >> 1, k + 1); }
+                                               ^   ~
+/home/mcc311/open_spiel/open_spiel/../pybind11/include/pybind11/detail/common.h:492:48: note: previous definition is here
+inline static constexpr int log2(size_t n, int k = 0) {
+                                               ^   ~
+In file included from /home/mcc311/open_spiel/open_spiel/python/pybind11/games_gin_rummy.cc:28:
+In file included from /home/mcc311/open_spiel/open_spiel/python/../pybind11_abseil/pybind11_abseil/absl_casters.h:33:
+In file included from /home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/cast.h:13:
+In file included from /home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/pytypes.h:12:
+/home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/detail/common.h:395:32: error: redefinition of 'size_in_ptrs'
+inline static constexpr size_t size_in_ptrs(size_t s) { return 1 + ((s - 1) >> log2(sizeof(void *))); }
+                               ^
+/home/mcc311/open_spiel/open_spiel/../pybind11/include/pybind11/detail/common.h:497:32: note: previous definition is here
+inline static constexpr size_t size_in_ptrs(size_t s) {
+                               ^
+In file included from /home/mcc311/open_spiel/open_spiel/python/pybind11/games_gin_rummy.cc:28:
+In file included from /home/mcc311/open_spiel/open_spiel/python/../pybind11_abseil/pybind11_abseil/absl_casters.h:33:
+In file included from /home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/cast.h:13:
+In file included from /home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/pytypes.h:12:
+/home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/detail/common.h:403:18: error: redefinition of 'instance_simple_holder_in_ptrs'
+constexpr size_t instance_simple_holder_in_ptrs() {
+                 ^
+/home/mcc311/open_spiel/open_spiel/../pybind11/include/pybind11/detail/common.h:507:18: note: previous definition is here
+constexpr size_t instance_simple_holder_in_ptrs() {
+                 ^
+In file included from /home/mcc311/open_spiel/open_spiel/python/pybind11/games_gin_rummy.cc:28:
+In file included from /home/mcc311/open_spiel/open_spiel/python/../pybind11_abseil/pybind11_abseil/absl_casters.h:33:
+In file included from /home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/cast.h:13:
+In file included from /home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/pytypes.h:12:
+/home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/detail/common.h:413:8: In file included from error: /home/mcc311/open_spiel/open_spiel/python/pybind11/games_euchre.ccredefinition of 'nonsimple_values_and_holders':
+26:
+struct nonsimple_values_and_holders {In file included from 
+/home/mcc311/open_spiel/open_spiel/python/../pybind11_abseil/pybind11_abseil/absl_casters.h       ^:
+33/home/mcc311/open_spiel/open_spiel/../pybind11/include/pybind11/detail/common.h:
+:In file included from 517/home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/cast.h::813::
+ In file included from note: /home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/pytypes.hprevious definition is here:
+12:
+struct nonsimple_values_and_holders {/home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/detail/common.h
+:       ^339
+:12: In file included from error: /home/mcc311/open_spiel/open_spiel/python/pybind11/games_gin_rummy.ccredefinition of 'return_value_policy':
+28:
+In file included from /home/mcc311/open_spiel/open_spiel/python/../pybind11_abseil/pybind11_abseil/absl_casters.h:33:
+enum class return_value_policy : uint8_t {In file included from 
+/home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/cast.h           ^:
+13/home/mcc311/open_spiel/open_spiel/../pybind11/include/pybind11/detail/common.h:
+:In file included from 418/home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/pytypes.h::1212::
+ /home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/detail/common.hnote: :previous definition is here419
+:8enum class return_value_policy : uint8_t {:
+            ^error: 
+redefinition of 'instance'
+struct instance {
+       ^
+/home/mcc311/open_spiel/open_spiel/../pybind11/include/pybind11/detail/common.h:523:8: note: previous definition is here
+In file included from struct instance {/home/mcc311/open_spiel/open_spiel/python/pybind11/games_euchre.cc
+:       ^26
+:
+In file included from /home/mcc311/open_spiel/open_spiel/python/../pybind11_abseil/pybind11_abseil/absl_casters.h:33:
+In file included from /home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/cast.h:13:
+In file included from /home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/pytypes.h:12:
+/home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/detail/common.h:392:48: error: redefinition of default argument
+inline static constexpr int log2(size_t n, int k = 0) { return (n <= 1) ? k : log2(n >> 1, k + 1); }In file included from 
+/home/mcc311/open_spiel/open_spiel/python/pybind11/games_gin_rummy.cc                                               ^   ~:
+28/home/mcc311/open_spiel/open_spiel/../pybind11/include/pybind11/detail/common.h:
+:In file included from 492/home/mcc311/open_spiel/open_spiel/python/../pybind11_abseil/pybind11_abseil/absl_casters.h::4833::
+ In file included from note: /home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/cast.hprevious definition is here:
+13:
+In file included from inline static constexpr int log2(size_t n, int k = 0) {/home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/pytypes.h
+:                                               ^   ~12
+:
+/home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/detail/common.h:504:50: error: redefinition of 'select_indices_impl'
+template <typename ISeq, size_t, bool...> struct select_indices_impl { using type = ISeq; };
+                                                 ^
+/home/mcc311/open_spiel/open_spiel/../pybind11/include/pybind11/detail/common.h:634:8: note: In file included from previous definition is here/home/mcc311/open_spiel/open_spiel/python/pybind11/games_euchre.cc
+:26struct select_indices_impl {:
+
+In file included from        ^/home/mcc311/open_spiel/open_spiel/python/../pybind11_abseil/pybind11_abseil/absl_casters.h
+:33:
+In file included from /home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/cast.h:13:
+In file included from /home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/pytypes.h:12:
+/home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/detail/common.h:395:32: error: redefinition of 'size_in_ptrs'
+In file included from inline static constexpr size_t size_in_ptrs(size_t s) { return 1 + ((s - 1) >> log2(sizeof(void *))); }/home/mcc311/open_spiel/open_spiel/python/pybind11/games_gin_rummy.cc
+:                               ^28
+:
+/home/mcc311/open_spiel/open_spiel/../pybind11/include/pybind11/detail/common.hIn file included from :/home/mcc311/open_spiel/open_spiel/python/../pybind11_abseil/pybind11_abseil/absl_casters.h497::3332:
+:In file included from  /home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/cast.hnote: :previous definition is here13
+:
+In file included from inline static constexpr size_t size_in_ptrs(size_t s) {/home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/pytypes.h
+:                               ^12
+:
+/home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/detail/common.h:505:65: error: redefinition of 'select_indices_impl<index_sequence<IPrev...>, I, B, Bs...>'
+template <size_t... IPrev, size_t I, bool B, bool... Bs> struct select_indices_impl<index_sequence<IPrev...>, I, B, Bs...>
+                                                                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/mcc311/open_spiel/open_spiel/../pybind11/include/pybind11/detail/common.h:638In file included from :/home/mcc311/open_spiel/open_spiel/python/pybind11/games_euchre.cc8::26 :
+note: In file included from previous definition is here/home/mcc311/open_spiel/open_spiel/python/../pybind11_abseil/pybind11_abseil/absl_casters.h
+:33:
+struct select_indices_impl<index_sequence<IPrev...>, I, B, Bs...>In file included from 
+/home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/cast.h       ^:
+13:
+In file included from /home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/pytypes.h:12:
+/home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/detail/common.h:403:18: error: redefinition of 'instance_simple_holder_in_ptrs'
+constexpr size_t instance_simple_holder_in_ptrs() {
+                 ^
+/home/mcc311/open_spiel/open_spiel/../pybind11/include/pybind11/detail/common.h:507:18: note: previous definition is here
+constexpr size_t instance_simple_holder_in_ptrs() {
+In file included from                  ^/home/mcc311/open_spiel/open_spiel/python/pybind11/games_gin_rummy.cc
+:28:
+In file included from /home/mcc311/open_spiel/open_spiel/python/../pybind11_abseil/pybind11_abseil/absl_casters.h:33:
+In file included from /home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/cast.h:13:
+In file included from /home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/pytypes.h:12:
+/home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/detail/common.h:511:30: error: redefinition of 'negation'In file included from 
+/home/mcc311/open_spiel/open_spiel/python/pybind11/games_euchre.cc:26template <typename T> struct negation : bool_constant<!T::value> { };:
+
+In file included from                              ^/home/mcc311/open_spiel/open_spiel/python/../pybind11_abseil/pybind11_abseil/absl_casters.h
+:/home/mcc311/open_spiel/open_spiel/../pybind11/include/pybind11/detail/common.h33::
+649In file included from :/home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/cast.h8::13 :
+note: In file included from previous definition is here/home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/pytypes.h
+:12:
+struct negation : bool_constant<!T::value> {};/home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/detail/common.h
+:       ^413
+:8: error: redefinition of 'nonsimple_values_and_holders'
+struct nonsimple_values_and_holders {
+       ^
+In file included from /home/mcc311/open_spiel/open_spiel/../pybind11/include/pybind11/detail/common.h/home/mcc311/open_spiel/open_spiel/python/pybind11/games_gin_rummy.cc::51728::
+8In file included from :/home/mcc311/open_spiel/open_spiel/python/../pybind11_abseil/pybind11_abseil/absl_casters.h :note: 33previous definition is here:
+
+In file included from /home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/cast.hstruct nonsimple_values_and_holders {:
+13       ^:
+
+In file included from /home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/pytypes.h:12In file included from :
+/home/mcc311/open_spiel/open_spiel/python/pybind11/games_euchre.cc/home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/detail/common.h::26519:
+:In file included from 31/home/mcc311/open_spiel/open_spiel/python/../pybind11_abseil/pybind11_abseil/absl_casters.h:: 33error: :
+redefinition of 'void_t_impl'In file included from 
+/home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/cast.h:13:
+template <typename...> struct void_t_impl { using type = void; };In file included from 
+/home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/pytypes.h                              ^:
+12/home/mcc311/open_spiel/open_spiel/../pybind11/include/pybind11/detail/common.h:
+:/home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/detail/common.h659::4198::8 :note:  previous definition is hereerror: 
+redefinition of 'instance'struct void_t_impl {
+
+struct instance {       ^
+
+       ^
+/home/mcc311/open_spiel/open_spiel/../pybind11/include/pybind11/detail/common.h:523:8: note: previous definition is here
+struct instance {
+       ^
+In file included from In file included from /home/mcc311/open_spiel/open_spiel/python/pybind11/games_euchre.cc/home/mcc311/open_spiel/open_spiel/python/pybind11/games_gin_rummy.cc::2628:
+:
+In file included from In file included from /home/mcc311/open_spiel/open_spiel/python/../pybind11_abseil/pybind11_abseil/absl_casters.h/home/mcc311/open_spiel/open_spiel/python/../pybind11_abseil/pybind11_abseil/absl_casters.h::3333:
+:
+In file included from In file included from /home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/cast.h/home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/cast.h::1313:
+:
+In file included from In file included from /home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/pytypes.h/home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/pytypes.h::1212:
+:
+/home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/detail/common.h/home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/detail/common.h::504547::5030::  error: error: redefinition of 'select_indices_impl'redefinition of 'remove_class'
+
+template <typename T> struct remove_class { };
+template <typename ISeq, size_t, bool...> struct select_indices_impl { using type = ISeq; };                             ^
+
+                                                 ^/home/mcc311/open_spiel/open_spiel/../pybind11/include/pybind11/detail/common.h
+:/home/mcc311/open_spiel/open_spiel/../pybind11/include/pybind11/detail/common.h699::6348::8 :note:  previous definition is herenote: 
+previous definition is here
+struct remove_class {};
+struct select_indices_impl {       ^
+
+       ^
+In file included from /home/mcc311/open_spiel/open_spiel/python/pybind11/games_gin_rummy.cc:28:
+In file included from /home/mcc311/open_spiel/open_spiel/python/../pybind11_abseil/pybind11_abseil/absl_casters.h:33:
+In file included from /home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/cast.hIn file included from :/home/mcc311/open_spiel/open_spiel/python/pybind11/games_euchre.cc13::
+26In file included from :
+/home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/pytypes.hIn file included from :/home/mcc311/open_spiel/open_spiel/python/../pybind11_abseil/pybind11_abseil/absl_casters.h12::
+33/home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/detail/common.h:
+:In file included from 548/home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/cast.h::5713::
+ In file included from error: /home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/pytypes.hredefinition of 'remove_class<R (C::*)(A...)>':
+12:
+/home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/detail/common.h:505:65template <typename C, typename R, typename... A> struct remove_class<R (C::*)(A...)> { using type = R (A...); };:
+                                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~error: 
+redefinition of 'select_indices_impl<index_sequence<IPrev...>, I, B, Bs...>'/home/mcc311/open_spiel/open_spiel/../pybind11/include/pybind11/detail/common.h
+:701:8: template <size_t... IPrev, size_t I, bool B, bool... Bs> struct select_indices_impl<index_sequence<IPrev...>, I, B, Bs...>note: 
+previous definition is here                                                                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+/home/mcc311/open_spiel/open_spiel/../pybind11/include/pybind11/detail/common.hstruct remove_class<R (C::*)(A...)> {:
+638       ^:
+8: note: previous definition is here
+struct select_indices_impl<index_sequence<IPrev...>, I, B, Bs...>
+       ^
+In file included from /home/mcc311/open_spiel/open_spiel/python/pybind11/games_gin_rummy.cc:28:
+In file included from /home/mcc311/open_spiel/open_spiel/python/../pybind11_abseil/pybind11_abseil/absl_casters.h:33:
+In file included from /home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/cast.h:13:
+In file included from /home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/pytypes.h:12:
+/home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/detail/common.h:549:57: error: redefinition of 'remove_class<R (C::*)(A...) const>'
+template <typename C, typename R, typename... A> struct remove_class<R (C::*)(A...) const> { using type = R (A...); };In file included from 
+/home/mcc311/open_spiel/open_spiel/python/pybind11/games_euchre.cc                                                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~:
+26/home/mcc311/open_spiel/open_spiel/../pybind11/include/pybind11/detail/common.h:
+:In file included from 705/home/mcc311/open_spiel/open_spiel/python/../pybind11_abseil/pybind11_abseil/absl_casters.h::833::
+ In file included from note: /home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/cast.hprevious definition is here:
+13:
+In file included from struct remove_class<R (C::*)(A...) const> {/home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/pytypes.h
+:       ^12
+:
+/home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/detail/common.h:511:In file included from 30/home/mcc311/open_spiel/open_spiel/python/pybind11/games_gin_rummy.cc:: 28error: :
+redefinition of 'negation'In file included from 
+/home/mcc311/open_spiel/open_spiel/python/../pybind11_abseil/pybind11_abseil/absl_casters.h:33:
+In file included from /home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/cast.htemplate <typename T> struct negation : bool_constant<!T::value> { };:
+13                             ^:
+
+In file included from /home/mcc311/open_spiel/open_spiel/../pybind11/include/pybind11/detail/common.h/home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/pytypes.h::64912::
+8/home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/detail/common.h:: 552note: :previous definition is here30
+: struct negation : bool_constant<!T::value> {};error: 
+redefinition of 'intrinsic_type'       ^
+
+template <typename T> struct intrinsic_type                       { using type = T; };
+                             ^
+/home/mcc311/open_spiel/open_spiel/../pybind11/include/pybind11/detail/common.h:711:8: note: In file included from previous definition is here/home/mcc311/open_spiel/open_spiel/python/pybind11/games_euchre.cc
+:struct intrinsic_type {26
+:
+       ^In file included from 
+/home/mcc311/open_spiel/open_spiel/python/../pybind11_abseil/pybind11_abseil/absl_casters.h:33:
+In file included from /home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/cast.h:13In file included from :
+/home/mcc311/open_spiel/open_spiel/python/pybind11/games_gin_rummy.ccIn file included from :/home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/pytypes.h28::
+12In file included from :
+/home/mcc311/open_spiel/open_spiel/python/../pybind11_abseil/pybind11_abseil/absl_casters.h/home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/detail/common.h::33519:
+:In file included from 31/home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/cast.h:: 13error: :
+redefinition of 'void_t_impl'In file included from 
+/home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/pytypes.h:12:
+template <typename...> struct void_t_impl { using type = void; };/home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/detail/common.h
+:                              ^553
+:/home/mcc311/open_spiel/open_spiel/../pybind11/include/pybind11/detail/common.h30::659 :error: 8redefinition of 'intrinsic_type<const T>':
+ note: previous definition is here
+struct void_t_impl {
+template <typename T> struct intrinsic_type<const T>              { using type = typename intrinsic_type<T>::type; };       ^
+
+                             ^~~~~~~~~~~~~~~~~~~~~~~
+/home/mcc311/open_spiel/open_spiel/../pybind11/include/pybind11/detail/common.h:715:8: note: previous definition is here
+struct intrinsic_type<const T> {
+       ^
+In file included from /home/mcc311/open_spiel/open_spiel/python/pybind11/games_gin_rummy.cc:28:
+In file included from /home/mcc311/open_spiel/open_spiel/python/../pybind11_abseil/pybind11_abseil/absl_casters.h:33:
+In file included from /home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/cast.h:13:
+In file included from /home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/pytypes.h:12:
+/home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/detail/common.h:554:30: error: redefinition of 'intrinsic_type<T *>'
+In file included from template <typename T> struct intrinsic_type<T*>                   { using type = typename intrinsic_type<T>::type; };/home/mcc311/open_spiel/open_spiel/python/pybind11/games_euchre.cc
+:                             ^~~~~~~~~~~~~~~~~~26
+:
+/home/mcc311/open_spiel/open_spiel/../pybind11/include/pybind11/detail/common.hIn file included from :/home/mcc311/open_spiel/open_spiel/python/../pybind11_abseil/pybind11_abseil/absl_casters.h719::338:
+:In file included from  /home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/cast.hnote: :previous definition is here13
+:
+In file included from struct intrinsic_type<T *> {/home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/pytypes.h
+:       ^12
+:
+/home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/detail/common.h:547:30:In file included from  /home/mcc311/open_spiel/open_spiel/python/pybind11/games_gin_rummy.ccerror: :redefinition of 'remove_class'28
+:
+In file included from /home/mcc311/open_spiel/open_spiel/python/../pybind11_abseil/pybind11_abseil/absl_casters.htemplate <typename T> struct remove_class { };:
+33                             ^:
+
+In file included from /home/mcc311/open_spiel/open_spiel/../pybind11/include/pybind11/detail/common.h/home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/cast.h::69913::
+8In file included from :/home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/pytypes.h :note: 12previous definition is here:
+
+/home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/detail/common.hstruct remove_class {};:
+555       ^:
+30: error: redefinition of 'intrinsic_type<T &>'
+template <typename T> struct intrinsic_type<T&>                   { using type = typename intrinsic_type<T>::type; };
+                             ^~~~~~~~~~~~~~~~~~
+In file included from /home/mcc311/open_spiel/open_spiel/../pybind11/include/pybind11/detail/common.h/home/mcc311/open_spiel/open_spiel/python/pybind11/games_euchre.cc::72326::
+8In file included from :/home/mcc311/open_spiel/open_spiel/python/../pybind11_abseil/pybind11_abseil/absl_casters.h :note: 33previous definition is here:
+
+In file included from /home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/cast.hstruct intrinsic_type<T &> {:
+13       ^:
+
+In file included from /home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/pytypes.h:12:
+/home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/detail/common.hIn file included from :/home/mcc311/open_spiel/open_spiel/python/pybind11/games_gin_rummy.cc548::2857:
+:In file included from  /home/mcc311/open_spiel/open_spiel/python/../pybind11_abseil/pybind11_abseil/absl_casters.herror: :redefinition of 'remove_class<R (C::*)(A...)>'33
+:
+In file included from /home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/cast.h:13:
+template <typename C, typename R, typename... A> struct remove_class<R (C::*)(A...)> { using type = R (A...); };In file included from 
+/home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/pytypes.h                                                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~:
+12/home/mcc311/open_spiel/open_spiel/../pybind11/include/pybind11/detail/common.h:
+:/home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/detail/common.h701::5568::30 :note:  previous definition is hereerror: 
+redefinition of 'intrinsic_type<T &&>'
+struct remove_class<R (C::*)(A...)> {
+       ^
+template <typename T> struct intrinsic_type<T&&>                  { using type = typename intrinsic_type<T>::type; };
+                             ^~~~~~~~~~~~~~~~~~~
+/home/mcc311/open_spiel/open_spiel/../pybind11/include/pybind11/detail/common.h:727:8In file included from :/home/mcc311/open_spiel/open_spiel/python/pybind11/games_euchre.cc :note: 26previous definition is here:
+
+In file included from /home/mcc311/open_spiel/open_spiel/python/../pybind11_abseil/pybind11_abseil/absl_casters.hstruct intrinsic_type<T &&> {:
+33       ^:
+
+In file included from /home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/cast.h:13:
+In file included from /home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/pytypes.h:12:
+/home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/detail/common.hIn file included from :/home/mcc311/open_spiel/open_spiel/python/pybind11/games_gin_rummy.cc549::2857:
+:In file included from  /home/mcc311/open_spiel/open_spiel/python/../pybind11_abseil/pybind11_abseil/absl_casters.herror: :redefinition of 'remove_class<R (C::*)(A...) const>'33
+:
+In file included from /home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/cast.h:13:
+template <typename C, typename R, typename... A> struct remove_class<R (C::*)(A...) const> { using type = R (A...); };In file included from 
+/home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/pytypes.h                                                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~:
+12/home/mcc311/open_spiel/open_spiel/../pybind11/include/pybind11/detail/common.h:
+:/home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/detail/common.h705::5578::40 :note:  previous definition is hereerror: 
+redefinition of 'intrinsic_type<const T[N]>'
+struct remove_class<R (C::*)(A...) const> {
+       ^
+template <typename T, size_t N> struct intrinsic_type<const T[N]> { using type = typename intrinsic_type<T>::type; };
+In file included from                                        ^~~~~~~~~~~~~~~~~~~~~~~~~~/home/mcc311/open_spiel/open_spiel/python/pybind11/games_euchre.cc
+:/home/mcc311/open_spiel/open_spiel/../pybind11/include/pybind11/detail/common.h26::
+731In file included from :/home/mcc311/open_spiel/open_spiel/python/../pybind11_abseil/pybind11_abseil/absl_casters.h8::33 :
+note: In file included from previous definition is here/home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/cast.h
+:13struct intrinsic_type<const T[N]> {:
+
+In file included from        ^/home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/pytypes.h
+:12:
+/home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/detail/common.h:552:30:fatal error:  too many errors emitted, stopping now [-ferror-limit=]error: 
+redefinition of 'intrinsic_type'
+template <typename T> struct intrinsic_type                       { using type = T; };
+                             ^
+/home/mcc311/open_spiel/open_spiel/../pybind11/include/pybind11/detail/common.h:711:8: note: previous definition is here
+struct intrinsic_type {
+       ^
+In file included from /home/mcc311/open_spiel/open_spiel/python/pybind11/games_euchre.cc:26:
+In file included from /home/mcc311/open_spiel/open_spiel/python/../pybind11_abseil/pybind11_abseil/absl_casters.h:33:
+In file included from /home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/cast.h:13:
+In file included from /home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/pytypes.h:12:
+/home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/detail/common.h:553:30: error: redefinition of 'intrinsic_type<const T>'
+template <typename T> struct intrinsic_type<const T>              { using type = typename intrinsic_type<T>::type; };
+                             ^~~~~~~~~~~~~~~~~~~~~~~
+/home/mcc311/open_spiel/open_spiel/../pybind11/include/pybind11/detail/common.h:715:8: note: previous definition is here
+struct intrinsic_type<const T> {
+       ^
+In file included from /home/mcc311/open_spiel/open_spiel/python/pybind11/games_euchre.cc:26:
+In file included from /home/mcc311/open_spiel/open_spiel/python/../pybind11_abseil/pybind11_abseil/absl_casters.h:33:
+In file included from /home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/cast.h:13:
+In file included from /home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/pytypes.h:12:
+/home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/detail/common.h:554:30: error: redefinition of 'intrinsic_type<T *>'
+template <typename T> struct intrinsic_type<T*>                   { using type = typename intrinsic_type<T>::type; };
+                             ^~~~~~~~~~~~~~~~~~
+/home/mcc311/open_spiel/open_spiel/../pybind11/include/pybind11/detail/common.h:719:8: note: previous definition is here
+struct intrinsic_type<T *> {
+       ^
+In file included from /home/mcc311/open_spiel/open_spiel/python/pybind11/games_euchre.cc:26:
+In file included from /home/mcc311/open_spiel/open_spiel/python/../pybind11_abseil/pybind11_abseil/absl_casters.h:33:
+In file included from /home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/cast.h:13:
+In file included from /home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/pytypes.h:12:
+/home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/detail/common.h:555:30: error: redefinition of 'intrinsic_type<T &>'
+template <typename T> struct intrinsic_type<T&>                   { using type = typename intrinsic_type<T>::type; };
+                             ^~~~~~~~~~~~~~~~~~
+/home/mcc311/open_spiel/open_spiel/../pybind11/include/pybind11/detail/common.h:723:8: note: previous definition is here
+struct intrinsic_type<T &> {
+       ^
+In file included from /home/mcc311/open_spiel/open_spiel/python/pybind11/games_euchre.cc:26:
+In file included from /home/mcc311/open_spiel/open_spiel/python/../pybind11_abseil/pybind11_abseil/absl_casters.h:33:
+In file included from /home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/cast.h:13:
+In file included from /home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/pytypes.h:12:
+/home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/detail/common.h:556:30: error: redefinition of 'intrinsic_type<T &&>'
+template <typename T> struct intrinsic_type<T&&>                  { using type = typename intrinsic_type<T>::type; };
+                             ^~~~~~~~~~~~~~~~~~~
+/home/mcc311/open_spiel/open_spiel/../pybind11/include/pybind11/detail/common.h:727:8: note: previous definition is here
+struct intrinsic_type<T &&> {
+       ^
+In file included from /home/mcc311/open_spiel/open_spiel/python/pybind11/games_euchre.cc:26:
+In file included from /home/mcc311/open_spiel/open_spiel/python/../pybind11_abseil/pybind11_abseil/absl_casters.h:33:
+In file included from /home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/cast.h:13:
+In file included from /home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/pytypes.h:12:
+/home/mcc311/open_spiel/open_spiel/libtorch/libtorch/include/pybind11/detail/common.h:557:40: error: redefinition of 'intrinsic_type<const T[N]>'
+template <typename T, size_t N> struct intrinsic_type<const T[N]> { using type = typename intrinsic_type<T>::type; };
+                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/mcc311/open_spiel/open_spiel/../pybind11/include/pybind11/detail/common.h:731:8: note: previous definition is here
+struct intrinsic_type<const T[N]> {
+       ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.
+20 errors generated.
+make[2]: *** [python/CMakeFiles/pyspiel.dir/build.make:202：python/CMakeFiles/pyspiel.dir/pybind11/games_gin_rummy.cc.o] 錯誤 1
+make[2]: *** 正在等待未完成的作業....
+make[2]: *** [python/CMakeFiles/pyspiel.dir/build.make:188：python/CMakeFiles/pyspiel.dir/pybind11/games_euchre.cc.o] 錯誤 1
+make[1]: *** [CMakeFiles/Makefile2:15996：python/CMakeFiles/pyspiel.dir/all] 錯誤 2
+make: *** [Makefile:101：all] 錯誤 2
+Exiting virtualenv
